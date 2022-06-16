@@ -1,0 +1,165 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background: url(ott2.jpg) repeat-X 0 0;
+  }
+  
+  .page-content {
+    position: relative;
+  }
+  
+  .content {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 hsl(208, 77%, 29%);
+    text-align: center;
+    width: 400px;
+    height: 620px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 400px;
+  }
+  
+  .text {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 360px;
+  }
+  
+  .description h3 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  
+  .description p {
+    color: hsl(225, 82%, 9%);
+    font-weight: 500;
+    margin: -5px 10px 0 10px;
+  }
+  
+  .plan {
+    position: relative;
+    height: 90px;
+    margin-top: 25px;
+  }
+  
+  .plan img {
+    position: absolute;
+    float: left;
+    left: 15px;
+    transform: translateY(50%);
+  }
+  
+  .anual-plan {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: 100%;
+    left: 70px;
+  }
+  
+  .plano {
+    font-size: 14px;
+    font-weight: 900;
+    /*margin-top: 25px;*/
+    transform: translateY(50%);
+  }
+  
+  .preco {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 7px;
+    position: absolute;
+    /*transform: translateY(50%);*/
+  }
+  
+  .change {
+    position: absolute;
+    height: 100%;
+    right: 80px;
+  }
+  
+  .change-btn {
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .change-btn:hover {
+    color: #703bc4;
+    text-decoration: none;
+  }
+  
+  .proceed {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0 hsl(223, 47%, 23%);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .payment {
+    color: hsl(225, 100%, 98%);
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .proceed:hover {
+    background-color: #703bc4;
+  }
+  
+  .cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 900;
+    height: 70px;
+    position: relative;
+    margin-top: 0;
+  }
+  
+  .cancel a {
+    text-decoration: inherit;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cancel a:hover {
+    color: hsl(223, 47%, 23%);
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
